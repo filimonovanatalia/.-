@@ -47,7 +47,7 @@ int main() {
 
         if (scanf("%d", &choice) != 1) {
             printf("Ошибка ввода. Введите число от 1 до 4.\n");
-            while (getchar() != '\n'); // Очистка буфера ввода
+            while (getchar() != '\n'); 
             continue;
         }
 
